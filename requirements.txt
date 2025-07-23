@@ -1,0 +1,4 @@
+Streamlit - Web Page
+LangChain - LLM Tool
+OpenAI 
+Groq - GenAI API
