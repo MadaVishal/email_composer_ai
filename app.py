@@ -1,24 +1,3 @@
-# import streamlit as st
-# from groq_llm_chain import generate_email
-
-# st.set_page_config(page_title="Email Composer AI", layout="centered")
-
-# st.title("Email Composer AI")
-# st.markdown("Generate professional and personalized emails using AI.")
-
-# purpose = st.text_input("Purpose of the email")
-# tone = st.selectbox("Tone", ['Formal', 'Friendly', 'Apologetic', 'Thankful'])
-# details = st.text_area("Additional details")
-
-# if st.button("Generate Email"):
-#     if not purpose or not details:
-#          st.warning("Please fill out all fields.")
-#     else:
-#         with st.spinner("Generating......."):
-#            email = generate_email(purpose, tone, details)
-#            st.success("Email Generated!")
-#            st.code(email)
-
 import streamlit as st
 from groq_llm_chain import generate_email
 
